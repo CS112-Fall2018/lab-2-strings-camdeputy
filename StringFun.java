@@ -1,3 +1,15 @@
+/**
+*This is a program testing Strings.
+*I picked the replace and matches methods as my optional methods
+*"replace" replaces every character in parameter 1 to the character specified at param 2
+*"matches" is a boolean that returns true if the String param matches the String
+* @author Cameron Deputy
+* 
+*/
+
+
+
+
 public class StringFun {
 	public static void main(String args[]) {
 		String s = "thatString";
