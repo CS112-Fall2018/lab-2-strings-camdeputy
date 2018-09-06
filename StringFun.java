@@ -12,9 +12,9 @@
 
 public class StringFun {
 	public static void main(String args[]) {
-		String s = "thatString";
-		String otherString = "otherString";
-		String anotherString = "anotherString";
+		String s = args[0];
+		String otherString = args[1];
+		String anotherString = args[2];
 		System.out.println(s.length());
 		System.out.println(s.equals(otherString));
 		System.out.println(s.substring(0,3));
